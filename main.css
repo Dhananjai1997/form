@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: aliceblue; */
+   height: 100vh;
+}
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+}
+.have-query{
+    margin-bottom: 45px;
+    text-align: center;
+    color: orangered;
+}
+input:hover{
+    border-color: aliceblue;
+}
+.input-field{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.select-field{
+    margin-bottom: 15px;
+    width: 360px;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 5px;
+
+}
+.select{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.tourist-places {
+    display: none;
+}
+.select-btn{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: orangered; /* oranged */
+    border: 2px solid transparent; /* Adding border */
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Adding border-color to transition */
+}
+
+.button:hover {
+    background-color:white;
+    color:orangered;
+    border-color: orangered; /* Changing border color on hover */
+}
